@@ -2774,6 +2774,7 @@ body {
   border: 1px solid #55596a;
   padding-left: 10px;
   margin-left: 20px;
+  color: #fff;
 }
 .products__price-inp:focus {
   border: 1px solid #8acd52;
