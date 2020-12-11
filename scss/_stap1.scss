@@ -808,3 +808,29 @@
     background-color: #fff;
   }
 }
+
+@media (max-width:465px) {
+  .stap__indecator-wrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .stap__indecator-inner:before {
+    transform: translateX(-83%);
+    width: 72%;
+  }
+
+  .stap__indecator-text {
+    font-size: 13px;
+  }
+
+  .stap__indecator-nomber:before {
+    background: #222635;
+    width: 55px;
+    height: 55px;
+  }
+
+  .stap__indecator-inner {
+    width: 33%;
+  }
+}

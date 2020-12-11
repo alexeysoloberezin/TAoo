@@ -2,6 +2,30 @@
 	position: relative;
 	min-height: 40px;
 	font-family: 'Proxima Nova', sans-serif;
+
+}
+
+.select__options {
+	border: 1px solid #55596a;
+	border-top: none;
+
+
+}
+
+.select__title {
+	border: 1px solid #55596a;
+	border-bottom: none;
+
+}
+
+._active .select__options {
+	border: 1px solid #77d444;
+	border-top: none;
+}
+
+._active .select__title {
+	border: 1px solid #77d444;
+	border-bottom: none;
 }
 
 .select__item {

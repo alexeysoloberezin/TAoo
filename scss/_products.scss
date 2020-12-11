@@ -467,6 +467,14 @@
     width: 100%;
   }
 
+  .products .select__options {
+    top: 50px;
+  }
+
+  .products .select__option {
+    padding: 16px 10px;
+  }
+
   .products__filter-price {
     margin-top: 20px;
   }
@@ -490,6 +498,7 @@
   .products .paginations {
     justify-content: center;
   }
+
 }
 
 
