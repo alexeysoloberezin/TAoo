@@ -131,6 +131,9 @@
     line-height: 118%;
     flex: 0 0 auto;
 
+    p {
+      margin-bottom: 4px;
+    }
   }
 
   &__massege-mob {
@@ -226,7 +229,7 @@
   }
 
   &__massages-link {
-    color: #55596a;
+    color: #7d8196;
     font-size: 16px;
     font-weight: 300;
     text-decoration: underline;
@@ -602,6 +605,8 @@
       width: 100%;
       flex-direction: row;
       flex-wrap: wrap;
+
+
     }
 
     &__status-processed,

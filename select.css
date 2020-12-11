@@ -65,7 +65,13 @@
 	border-top: 0;
 	border-top: 0;
 	font-size: 17px;
-	padding: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+	transition: .25s;
+}
+
+.select__option:hover {
+	background: #424553;
+
 }
 
 .select__option {

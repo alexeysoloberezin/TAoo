@@ -124,11 +124,15 @@ body {
   font-weight: 400;
   margin: 0 5px;
   color: #fff;
+  transition: 0.25s;
 }
 .pagination-link-active {
   color: #8acd52;
   font-size: 22px;
   font-weight: 600;
+}
+.pagination-link:hover {
+  color: #8acd52;
 }
 
 .header {
@@ -3160,6 +3164,9 @@ body {
   line-height: 118%;
   flex: 0 0 auto;
 }
+.orders__info p {
+  margin-bottom: 4px;
+}
 .orders__massege-mob {
   display: none;
 }
@@ -3231,7 +3238,7 @@ body {
   margin-right: 5px;
 }
 .orders__massages-link {
-  color: #55596a;
+  color: #7d8196;
   font-size: 16px;
   font-weight: 300;
   text-decoration: underline;
@@ -3711,6 +3718,7 @@ body {
   text-align: center;
   position: relative;
   width: 170.3333px;
+  cursor: pointer;
 }
 .stap__indecator-inner:before {
   content: "";
@@ -3722,6 +3730,9 @@ body {
   width: 131px;
   height: 2px;
   background-color: #31374d;
+}
+.stap__indecator-inner-3 {
+  cursor: default;
 }
 .stap__indecator-nomber {
   position: relative;
