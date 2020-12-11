@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterTAO</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <div class="wrapper" id="wrapper">
+    <div class="window3"></div>
+    <header id="header" class="header">         
+      <div class="body__window"></div>  
+      <div class="header__row">
+        <div class="container">
+          <div class="header__inline">
+            <a href="/" class="header__logo">
+              <img src="image/Logo.png" alt="MasterTao">          
+            </a>
+            <div class="header__info">
+              <p>Доставка товаров из Китая в Россию</p>
+              <p>Всего от 15 дней до Москвы</p>
+            </div>
+            <div class="header__course">
+              <p><span class="header__uan"> 1 ¥ </span>= <span class="header__rus">10.586 ₽</span></p>
+              <p class="header__txt">Текущий курс:</p>
+            </div>
+            <div class="header__phone" data-da=".header__list, 767, last">
+              <a class="header__tel"  href="tel:88007077568">8 (800) 707-75-68</a>
+              <p class="header__txt">Звонок по России бесплатный</p>
+            </div>
+            <div class="header__login-inner header__login-reg">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <a class="header__login" href="#">Вход</a>
+              <span class="header__sl" style="white-space: pre;"> / </span>
+              <a class="header__register" href="#">регистрация</a>
+            </div>
+            <div class="header__login-inner header__user-inner">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <p class="header__name">Иван Скороходов</p>
+              <ul class="header__account"> 
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Заказы</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Корзина</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Баланс</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Кабинет</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Выйти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="burger">
+              <span class="burger-line__top"></span>
+              <span class="burger-line__center"></span>
+              <span class="burger-line__bottom"></span>
+            </div>
+          </div>          
+        </div>       
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+          <div class="header__burger-close">
+            <span></span>
+          </div>
+          <ul class="header__list">
+            <li class="header__item header__item-drp">
+              <p class="header__link header__link-drp">Товары</p>
+              <ul class="header__list-drop">
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Купальники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Паяльники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">украшения на шею</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">автотовары</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">головные уборы</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">летняя распродажа</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">о нас</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">чат</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">форума</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">условия</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">отзывы</a>
+            </li>
+          </ul>
+        </div>       
+      </nav>
+     
+    </header>
+    <main class="main">
+      <div class="container">
+        <ul class="breads">
+          <li class="breads__item">
+            <a class="breads__link breads__link-home" href="/">Главная</a>
+          </li>
+          <li class="breads__item">
+            <a class="breads__link  " href="#">Формирование заказа</a>
+          </li>
+        </ul>
+      </div>
+      <section  class="stap ">
+        <div class="container">
+           <h1 id="stap__title" class="stap__title">Сделать заказ</h1>
+          <div class="stap__indecator-wrapper">
+            <div class="stap__indecator-inner stap__indecator-inner-1 stap__indecator-inner-active">
+              <div class="stap__indecator-nomber ">1</div>
+              <p class="stap__indecator-text">Корзина</p>
+            </div>
+            <div class="stap__indecator-inner stap__indecator-inner-2">
+              <div class="stap__indecator-nomber">2</div>
+              <p class="stap__indecator-text">Оформление доставки</p>
+            </div>
+            <div class="stap__indecator-inner stap__indecator-inner-3">
+              <div class="stap__indecator-nomber">3</div>
+              <p class="stap__indecator-text">Готово</p>
+            </div>
+          </div>
+          <div class="stap0 ">
+            <div class="stap0__title">Вы еще не добавили товары</div>
+            <div class="stap0-wrap">
+              <p class="stap0__instruction">Инструкция по добавлению</p>
+            </div>
+            
+            <div class="stap0__inner">
+              <input class="stap0__input" type="text" placeholder="Вставьте ссылку на страницу с товаром">
+              <button class="stap0__btn"></button>
+            </div>
+            <div class="stap0__link">Укажите в этом поле ссылку на страницу товара с <a href="/">taobao.com</a></div>
+          </div>
+          <div class="stap1 stap-active">
+            <div class="stap1__wrapper">
+              <div class="stap1__image">
+                <picture>
+                  <source srcset="image/products/product1-mob.png" media="(max-width: 500px)">
+                  <img src="image/products/stap1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="stap1__inner">
+                <p class="stap1__name">HOSLLIY <span class="gotick">桃雑记】</span> THANKFUL <span class="gotick">美式哑光芝麻釉杯垫 杯托美式</span></p>
+                <p class="stap1__id">ID: 28345</p>
+                <p class="stap1__txt"></p>
+                <ul class="stap1__list">
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Вариант</p>
+                    <p class="stap1__item-box">光芝麻釉</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Тип сети</p>
+                    <p class="stap1__item-box">WIFI</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Упаковка</p>
+                    <p class="stap1__item-box">光芝</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="stap1__quantity">
+                <button class="stap1__quantity-btn stap1__quantity-add"></button>
+                <input class="stap1__quantity-input" readonly type="text"  value="5">
+                <button class="stap1__quantity-btn stap1__quantity-remove"></button>
+              </div>
+              <div class="stap1__block">
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Сумма</p>
+                  <p class="stap1__block-uan orange">¥ 999.00</p>
+                  <p class="stap1__block-rus">₽ 11788.2</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Доставка</p>
+                  <p class="stap1__block-uan">¥ 12.00</p>
+                  <p class="stap1__block-rus">₽ 141.6</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Услуги</p>
+                  <p class="stap1__block-uan">¥ 1.00</p>
+                  <p class="stap1__block-rus">₽ 11.8</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Итого</p>
+                  <p class="stap1__block-uan green">¥ 1012.00</p>
+                  <p class="stap1__block-rus">₽ 11941.6</p>
+                </div>                
+              </div>
+              <div class="stap1__console">
+                <a href="#" class="stap1__changes"><img src="image/svg/change.svg" alt=""></a>
+                <a href="#" class="stap1__changes"><img src="image/svg/close2.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="stap1__wrapper">
+              <div class="stap1__image">
+                <picture>
+                  <source srcset="image/products/product1-mob.png" media="(max-width: 500px)">
+                  <img src="image/products/stap1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="stap1__inner">
+                <p class="stap1__name">HOSLLIY 桃雑记】THANKFUL美式哑光芝麻釉杯垫 杯托美式</p>
+                <p class="stap1__id">ID: 28345</p>
+                <p class="stap1__txt">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами</p>
+                <ul class="stap1__list">
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Вариант</p>
+                    <p class="stap1__item-box">光芝麻釉</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Тип сети</p>
+                    <p class="stap1__item-box">WIFI</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Упаковка</p>
+                    <p class="stap1__item-box">光芝</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="stap1__quantity">
+                <button class="stap1__quantity-btn stap1__quantity-add"></button>
+                <input class="stap1__quantity-input" readonly type="text"  value="5">
+                <button class="stap1__quantity-btn stap1__quantity-remove"></button>
+              </div>
+              <div class="stap1__block">
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Сумма</p>
+                  <p class="stap1__block-uan orange">¥ 999.00</p>
+                  <p class="stap1__block-rus">₽ 11788.2</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Доставка</p>
+                  <p class="stap1__block-uan">¥ 12.00</p>
+                  <p class="stap1__block-rus">₽ 141.6</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Услуги</p>
+                  <p class="stap1__block-uan">¥ 1.00</p>
+                  <p class="stap1__block-rus">₽ 11.8</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Итого</p>
+                  <p class="stap1__block-uan green">¥ 1012.00</p>
+                  <p class="stap1__block-rus">₽ 11941.6</p>
+                </div>                
+              </div>
+              <div class="stap1__console">
+                <a href="#" class="stap1__changes"><img src="image/svg/change.svg" alt=""></a>
+                <a href="#" class="stap1__changes"><img src="image/svg/close2.svg" alt=""></a>
+              </div>
+            </div>
+            
+            <div class="stap1__wrapper">
+              <div class="stap1__image">
+                <picture>
+                  <source srcset="image/products/product1-mob.png" media="(max-width: 500px)">
+                  <img src="image/products/stap1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="stap1__inner">
+                <p class="stap1__name">HOSLLIY 桃雑记】THANKFUL美式哑光芝麻釉杯垫 杯托美式</p>
+                <p class="stap1__id">ID: 28345</p>
+                <p class="stap1__txt"></p>
+                <ul class="stap1__list">
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Вариант</p>
+                    <p class="stap1__item-box">光芝麻釉</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Тип сети</p>
+                    <p class="stap1__item-box">WIFI</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Упаковка</p>
+                    <p class="stap1__item-box">光芝</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="stap1__quantity">
+                <button class="stap1__quantity-btn stap1__quantity-add"></button>
+                <input class="stap1__quantity-input" readonly type="text"  value="5">
+                <button class="stap1__quantity-btn stap1__quantity-remove"></button>
+              </div>
+              <div class="stap1__block">
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Сумма</p>
+                  <p class="stap1__block-uan orange">¥ 999.00</p>
+                  <p class="stap1__block-rus">₽ 11788.2</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Доставка</p>
+                  <p class="stap1__block-uan">¥ 12.00</p>
+                  <p class="stap1__block-rus">₽ 141.6</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Услуги</p>
+                  <p class="stap1__block-uan">¥ 1.00</p>
+                  <p class="stap1__block-rus">₽ 11.8</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Итого</p>
+                  <p class="stap1__block-uan green">¥ 1012.00</p>
+                  <p class="stap1__block-rus">₽ 11941.6</p>
+                </div>                
+              </div>
+              <div class="stap1__console">
+                <a href="#" class="stap1__changes"><img src="image/svg/change.svg" alt=""></a>
+                <a href="#" class="stap1__changes"><img src="image/svg/close2.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="stap1__wrapper">
+              <div class="stap1__image">
+                <picture>
+                  <source srcset="image/products/product1-mob.png" media="(max-width: 500px)">
+                  <img src="image/products/stap1.jpg" alt="">
+                </picture>
+                
+              </div>
+              <div class="stap1__inner">
+                <p class="stap1__name">HOSLLIY 桃雑记】THANKFUL美式哑光芝麻釉杯垫 杯托美式</p>
+                <p class="stap1__id">ID: 28345</p>
+                <p class="stap1__txt"></p>
+                <ul class="stap1__list">
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Вариант</p>
+                    <p class="stap1__item-box">光芝麻釉</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Тип сети</p>
+                    <p class="stap1__item-box">WIFI</p>
+                  </li>
+                  <li class="stap1__item">
+                    <p class="stap1__item-text">Упаковка</p>
+                    <p class="stap1__item-box">光芝</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="stap1__quantity">
+                <button class="stap1__quantity-btn stap1__quantity-add"></button>
+                <input class="stap1__quantity-input" readonly type="text"  value="5">
+                <button class="stap1__quantity-btn stap1__quantity-remove"></button>
+              </div>
+              <div class="stap1__block">
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Сумма</p>
+                  <p class="stap1__block-uan orange">¥ 999.00</p>
+                  <p class="stap1__block-rus">₽ 11788.2</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Доставка</p>
+                  <p class="stap1__block-uan">¥ 12.00</p>
+                  <p class="stap1__block-rus">₽ 141.6</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Услуги</p>
+                  <p class="stap1__block-uan">¥ 1.00</p>
+                  <p class="stap1__block-rus">₽ 11.8</p>
+                </div>
+                <div class="stap1__block-wrapper">
+                  <p class="stap1__block-title">Итого</p>
+                  <p class="stap1__block-uan green">¥ 1012.00</p>
+                  <p class="stap1__block-rus">₽ 11941.6</p>
+                </div>                
+              </div>
+              <div class="stap1__console">
+                <a href="#" class="stap1__changes"><img src="image/svg/change.svg" alt=""></a>
+                <a href="#" class="stap1__changes"><img src="image/svg/close2.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="stap1__total-wrapper">
+              <a href="#stap__title" class="stap1__add"><span>Добавить товар</span></a>
+              <div class="stap1__total">
+                <p class="stap1__total-text">Итоговая стоимость:</p>
+                <p class="stap1__tatal-price">¥ 4048.00</p>
+              </div>
+              <a href="#header" class="stap__btn stap__btn-1" href="#">Продолжить</a>
+            </div>
+            
+          </div>
+          <div class="stap2  ">          
+              <form class="stap2__form">
+              <div class="stap2__form-wrapper">
+                <h3 class="stap2__title">Адрес и контакты</h3>
+                <p class="stap2__subtitle">Все контакты являются обязательными для заполнения</p>
+                <div class="stap2__wrapper">
+                  <div class="stap2__inner">
+                    <label class="stap2__label" >Город:</label>
+                    <input class="stap2__inp" type="text" placeholder="Введите город">
+                  </div>
+                  <div class="stap2__inner">
+                    <label class="stap2__label" >Адрес:</label>
+                    <input class="stap2__inp" type="text" placeholder="Укажите адрес дома, номер квартиры">
+                  </div>
+                  <div class="stap2__inner">
+                    <label class="stap2__label" >Ф.И.О</label>
+                    <input class="stap2__inp" type="text" placeholder="Укажите имя, фаимилию и отчество">
+                  </div>
+                  <div class="stap2__inner">
+                    <label class="stap2__label" >Телефон:</label>
+                    <input class="stap2__inp" type="text" placeholder="Номер телефона, без восьмёрки">
+                  </div>
+                  <div class="stap2__inner">
+                    <label class="stap2__label" >№ пасспорта</label>
+                    <input class="stap2__inp" type="text" placeholder="Серия и номер пасспорта для транспортных ко">
+                  </div>
+                </div>
+              </div>
+              <div class="stap2__form-wrapper">
+                <h3 class="stap2__title">Служба доставки</h3>
+                <p class="stap2__subtitle">Выберите удобную службу доставки</p>
+                <div class="stap2__form-inner">
+                  <input id="stap2__form-radio-1" checked class="stap2__form-radio" type="radio" name="stap2__radio">
+                  <label class="stap2__radiobox" for="stap2__form-radio-1">
+                    <span class="stap2__radiobox-title">ЖелДорЭкспедиция</span>
+                    <span class="stap2__radiobox-text">Подробнее <a href="#">о доставке из Гуанчжоу</a></span>                   
+                  </label>                  
+                  <input id="stap2__form-radio-2" class="stap2__form-radio" type="radio" name="stap2__radio">
+                  <label class="stap2__radiobox" for="stap2__form-radio-2">
+                    <span class="stap2__radiobox-title">Ускоренная доставка</span>
+                    <span class="stap2__radiobox-text">Подробнее <a href="#">о сроках и ценах</a></span>                   
+                  </label>
+                 
+                </div>
+                
+              </div>
+            </form>
+            <a href="#header"  class="stap__btn stap__btn-2">Продолжить</a>
+            </div>            
+          
+          <div class="stap3 ">
+            <div class="stap3__wrapper">
+              <h2 class="stap3__subtitle">Подтверждение заказа</h2>
+              <p class="stap3__text">Проверьте все заполненные поля</p>
+              <div class="stap3__inner">
+                <div class="stap3__box">
+                  <div class="stap3__box-title">ФИО:</div>
+                  <div class="stap3__box-info">Константинопольский Иван Константинович</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">№ паспорта:</div>
+                  <div class="stap3__box-info">78 32 123651</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">Контактный телефон:</div>
+                  <div class="stap3__box-info">+7 (902) 345-23-20</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">Номер заказа:</div>
+                  <div class="stap3__box-info">#31235123</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">Регион:</div>
+                  <div class="stap3__box-info">Центральный округ</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">Город:</div>
+                  <div class="stap3__box-info">Москва</div>
+                </div>
+                <div class="stap3__box">
+                  <div class="stap3__box-title">Адрес:</div>
+                  <div class="stap3__box-info">Кутузовский проспект, д. 57</div>
+                </div>
+              </div>
+              <div class="stap3__comment-wrapper">
+                <p class="stap3__comment-title">Комментарий к заказу:</p>
+                <textarea placeholder="Введите комментарий" class="stap3__comment-textarea"  cols="30" rows="10"></textarea>
+              </div>              
+            </div>
+            <div class="stap3__total-wrapper">
+              <div class="stap3__total-inner">
+                <p class="stap3__total-txt">Итого с учётом комиссии:</p>
+                <p class="stap3__total-price">47764.00₽</p>
+              </div>
+            </div>
+            <button class="stap__btn stap__btn-3">Оформить заказ</button>
+          </div>
+        </div>
+      </section>
+      <section class="addproduct addproduct-show">
+        <div class="container">
+          <div class="addproduct__wrapper">
+            <div class="addproduct__close"></div>
+            <h2 class="addproduct__title">Добавьте дополнительные товары:</h2>
+            <div class="addproduct__wrapper-box">
+              <input class="addproduct__wrapper-input" type="text" placeholder="Вставьте ссылку на страницу с товаром">
+              <button class="addproduct__wrapper-btn"></button>
+            </div>
+            <p class="addproduct__wrapper-ps">Укажите в этом поле ссылку на страницу товара с <a href="/">taobao.com</a></p>
+            <div class="addproduct-view">
+              <div class="addproduct__inner">
+                <div class="addproduct__inner-box">
+                  <label class="addproduct__inner-label">Название товара:</label>
+                  <input class="addproduct__inner-input" type="text" placeholder="Укажите название товара">
+                </div>
+                <div class="addproduct__inner-block ">
+                  <div class="addproduct__inner-box">
+                    <label class="addproduct__inner-label">Стоимость:</label>
+                    <input class="addproduct__inner-input" type="text" placeholder="Укажите стоимость">
+                  </div>
+                  <div class="addproduct__inner-box ">
+                    <label class="addproduct__inner-label">Доставка:</label>
+                    <input readonly value="0" class="addproduct__inner-input" type="text" >
+                  </div>
+                </div>
+              </div>
+              <div class="addproduct__inner">
+                <div class="addproduct__inner-box">
+                  <label class="addproduct__inner-label">Размер:</label>
+                  <input class="addproduct__inner-input" type="text" placeholder="Укажите размер">
+                </div>            
+                <div class="addproduct__inner-box">
+                  <label class="addproduct__inner-label">Цвет:</label>
+                  <input class="addproduct__inner-input" type="text" placeholder="Укажите цвет">
+                </div>    
+              </div>
+              <label class="addproduct__inner-label">Примечание:</label>
+              <textarea class="addproduct__textarea" placeholder="Примечание к товару"></textarea>
+              <label class="addproduct__inner-label">Количество:</label>
+              <div class="addproduct__total">             
+                <div class="addproduct__total-wrapper">
+                  <div class="addproduct__total-remove"></div>
+                  <input class="addproduct__total-counter" value="5" readonly type="text" >
+                  <div class="addproduct__total-add"></div>
+                </div>
+                <div class="addproduct__total-box">
+                  <div class="addproduct__total-block">
+                    <p class="addproduct__total-title">Сумма</p>
+                    <p class="addproduct__total-price orange" >¥ 999.00</p>
+                  </div>
+                  <div class="addproduct__total-block">
+                    <p class="addproduct__total-title">Доставка</p>
+                    <p class="addproduct__total-price">¥ 12.00</p>
+                  </div>
+                  <div class="addproduct__total-block">
+                    <p class="addproduct__total-title">Услуги</p>
+                    <p class="addproduct__total-price">¥ 1.00</p>
+                  </div>
+                  <div class="addproduct__total-block">
+                    <p class="addproduct__total-title">Итого</p>
+                    <p class="addproduct__total-price green">¥ 1012.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="addproduct__file">
+                <div class="addproduct__file-item">
+                  <input  class="addproduct__file-input" type="file" name="image">
+                  <div class="addproduct__file-btn"><img src="image/svg/file.png" alt=""></div>
+                </div>
+                <div class="addproduct__file-preview"><img src="image/products/stap1.jpg" alt=""></div>
+                <div class="addproduct__file-preview"><img src="image/products/stap1.jpg" alt=""></div>
+              </div>
+              <button class="addproduct__btn-add">Добавить товар</button>
+            </div>            
+          </div>
+        </div>
+      </section>
+    </main>     
+   
+    <footer class="footer">
+      <div class="container"> 
+        <div class="footer__block">
+          <div class="burger footer__burger">
+            <span class="burger-line__top"></span>
+            <span class="burger-line__center"></span>
+            <span class="burger-line__bottom"></span>
+          </div>
+          <div class="footer__inner">
+            <nav class="footer__navone footer__nav">
+              <ul class="footer__listone footer__list">
+                <li class="footer__itemone footer__item">                              
+                  <a class="footer__linkone footer__link" href="#">Товары</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">О нас</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Чат</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Форум</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Условия</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__navtwo footer__nav">
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+  
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+            </nav>
+            <nav class="footer__navthree footer__nav">
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__inner footer__inner-info">
+            <p class="footer__curse-text">Курс на сегодня</p>
+            <div class="footer__curse">
+              <span class="footer__uan">1 ¥</span>  =  <span class="footer__rus">  10.586 ₽</span>
+            </div>
+            <div class="footer__line">
+              <div class="footer__box footer__box-one">
+                <p class="footer__timecity"><img src="image/icons/clock1.png" alt=""> 11:00 Москва</p>              
+                <p class="footer__timecity" data-da=".footer__box-two, 460, last"><img src="image/icons/clock2.png" alt="">6:00 Пекин</p>
+              </div>
+              <div class="footer__box footer__box-two">
+                <p class="footer__time " data-da=".footer__box-one, 460, 0">Рабочий день с 4:00 до 13:00</p>
+                <p class="footer__time">Рабочий день с 9:00 до 18:00</p>
+              </div>
+            </div>
+            
+            <a href="tel:88007077568" class="footer__phone">8 (800) 707-75-68</a>
+            <p class="footer__call">Звонок по России бесплатный</p>
+            <div class="footer__socials">
+              <a class="footer__social" href="#">
+                <img  src="image/icons/facebook.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/twiter.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/google.png" alt="">
+              </a>    
+            </div>
+          </div>          
+        </div>
+        <p class="footer__ps">master-tao 2016 © Все права защищены</p>        
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+   <script src="js/dynamicAdapt_old.js"></script>  
+  <script src="js/staps.js"></script>
+  <script src="js/global-script.js"></script>
+</body>
+</html>

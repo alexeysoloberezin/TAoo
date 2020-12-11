@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterTAO</title> 
+  <link rel="stylesheet" href="select.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+ 
+</head>
+<body>
+  
+  <div class="wrapper" id="wrapper">
+    <header class="header">         
+      <div class="body__window"></div>  
+      <div class="header__row">
+        <div class="container">
+          <div class="header__inline">
+            <a href="/" class="header__logo">
+              <img src="image/Logo.png" alt="MasterTao">          
+            </a>
+            <div class="header__info">
+              <p>Доставка товаров из Китая в Россию</p>
+              <p>Всего от 15 дней до Москвы</p>
+            </div>
+            <div class="header__course">
+              <p><span class="header__uan"> 1 ¥ </span>= <span class="header__rus">10.586 ₽</span></p>
+              <p class="header__txt">Текущий курс:</p>
+            </div>
+            <div class="header__phone" data-da=".header__list, 767, last">
+              <a class="header__tel"  href="tel:88007077568">8 (800) 707-75-68</a>
+              <p class="header__txt">Звонок по России бесплатный</p>
+            </div>
+            <div class="header__login-inner header__login-reg">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <a class="header__login" href="#">Вход</a>
+              <span class="header__sl" style="white-space: pre;"> / </span>
+              <a class="header__register" href="#">регистрация</a>
+            </div>
+            <div class="header__login-inner header__user-inner">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <p class="header__name">Иван Скороходов</p>
+              <ul class="header__account"> 
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Заказы</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Корзина</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Баланс</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Кабинет</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Выйти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="burger">
+              <span class="burger-line__top"></span>
+              <span class="burger-line__center"></span>
+              <span class="burger-line__bottom"></span>
+            </div>
+          </div>          
+        </div>       
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+          <div class="header__burger-close">
+            <span></span>
+          </div>
+          <ul class="header__list">
+            <li class="header__item header__item-drp">
+              <p class="header__link header__link-drp">Товары</p>
+              <ul class="header__list-drop">
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Купальники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Паяльники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">украшения на шею</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">автотовары</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">головные уборы</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">летняя распродажа</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">о нас</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">чат</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">форума</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">условия</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">отзывы</a>
+            </li>
+          </ul>
+        </div>       
+      </nav>
+     
+    </header>
+    <main class="main">
+      <div class="container">
+        <ul class="breads">
+          <li class="breads__item">
+            <a class="breads__link breads__link-home" href="/">Главная</a>
+          </li>
+          <li class="breads__item">
+            <a class="breads__link  " href="#">Мои заказы</a>
+          </li>
+        </ul>
+      </div>
+      <section class="orders">
+        <div class="container">
+          <div class="orders__wrapper">
+            <h2 class="global__title orders__title">Мои заказы</h2>
+            <div class="orders__filter-sort">
+              <p class="orders__txt">Сортировка</p>
+              <select class="orders__select" name="select">
+                <option value="по времени: сначала новые">по времени: сначала новые</option>
+                <option value="по времени: сначала старые">по времени: сначала старые</option>
+                <option value="по цене: по возрастанию">по цене: по возрастанию</option>
+                <option value="по цене: по убыванию">по цене: по убыванию</option>
+                <option value="по статусу">по статусу</option>
+                <option value="по количеству">по количеству</option>
+              </select>
+            </div>
+            <ul class="paginations">
+              <li class="pagination pagination-prev pagination-btn">
+                <a class="pagination-link" href="#"></a>
+              </li>
+              <li class="pagination ">
+                <a class="pagination-link pagination-link-active" href="#">1</a>
+              </li>
+              <li class="pagination">
+                <a class="pagination-link" href="#">2</a>
+              </li>
+              <li class="pagination">
+                <a class="pagination-link" href="#">3</a>
+              </li>
+              <li class="pagination">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+              <li class="pagination">
+                <a class="pagination-link" href="#">5</a>
+              </li>
+              <li class="pagination">
+                ...
+              </li>
+              <li class="pagination">
+                <a class="pagination-link" href="#">320</a>
+              </li>
+  
+              <li class="pagination pagination-next pagination-btn">
+                <a class="pagination-link" href="#"></a>
+              </li>
+            </ul>
+          </div> 
+          <div class="orders__inner">
+            <p class="orders__subtitle">товар</p>
+            <p class="orders__subtitle">сообщения</p>
+            <p class="orders__subtitle">количество</p>
+            <p class="orders__subtitle">итого</p>
+          </div> 
+          <div class="orders__order-wrap">
+            <div class="orders__order orders-processed">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-1">
+                <img src="image/products/orders1.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-1">
+                <p class="orders__date" data-da=".orders__image-1, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity " data-da=".orders__info-1, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-1, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order ">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-2">
+                <img src="image/products/orders2.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-2">
+                <p class="orders__date" data-da=".orders__image-2, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-2, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-2, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-3">
+                <img src="image/products/orders2.jpg" alt="">
+                <p class="orders__id" >ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-3">
+                <p class="orders__date" data-da=".orders__image-3, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-3, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-3, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order orders-processed">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-4">
+                <img src="image/products/orders1.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-4">
+                <p class="orders__date" data-da=".orders__image-4, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-4, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-4, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order orders-processed">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-5">
+                <img src="image/products/orders1.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-5">
+                <p class="orders__date" data-da=".orders__image-5, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-5, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-5, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order ">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-6">
+                <img src="image/products/orders1.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-6">
+                <p class="orders__date" data-da=".orders__image-6, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-6, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-6, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+            <div class="orders__order ">
+              <div class="orders__icons">
+                <a class="orders__icons-processed" href="#"><img src="image/icons/change.png" alt=""></a>
+                <a class="orders__icons-processed" href="#"><img src="image/icons/close.png" alt=""></a>
+                <a class="orders__icons-ready" href="#"><img src="image/icons/okprocess.png" alt=""></a>
+              </div>
+              <div class="orders__image orders__image-7">
+                <img src="image/products/orders1.jpg" alt="">
+                <p class="orders__id">ID: 28345</p>
+              </div>
+              <div class="orders__info orders__info-7">
+                <p class="orders__date" data-da=".orders__image-7, 810, 2">29/04/2016, 23:25</p>
+                <p class="orders__status-processed">Статус: обрабатывается</p>
+                <p class="orders__status-ready">Статус: Выполнен</p>
+                <p class="orders__comment">Комментарий: водяное, термопаста, led-лампы, и куча важной информации касательно заказа 400px</p>
+                <p class="orders__tracking">Трекинг: <span>166-1049169</span> </p>
+                <a class="orders__massege-mob" href="#">Сообщения: 32 <span>(+2) </span></a>
+                <button class="orders__btn orders__btn-score">запросить счет</button>
+                <div class="orders__btn-inner">
+                  <button class="orders__btn orders__btn-bonus">Получить бонус</button>
+                  <button class="orders__btn orders__btn-archive">В архив</button>
+                </div>
+              </div>
+              <div class="orders__massages">
+                <div class="orders__massages-wrapper">
+                  <div class="orders__massages-icon">
+                    <img src="image/icons/comment.png" alt="">
+                    (32)
+                  </div>
+                  <a href="#" class="orders__massages-link">Вся переписка</a>
+                </div>
+                <div class="orders__massages-inner">
+                  <div class="orders__massages-photo">
+                    <img src="image/photo/1.jpg" alt="">
+                  </div>
+                  <div class="orders__massages-box">
+                    <p class="orders__massages-title">Милена Войтович</p>
+                    <p class="orders__massages-text">Ожидайте заказ у себя в Ожидайте заказ у себя в</p>
+                  </div>
+                </div>
+              </div>
+              <div class="orders__quantity" data-da=".orders__info-7, 730, last">
+                <p class="orders__quantity-title-mob">Количество:</p>
+                <p class="orders__quantity-text"><span>Товаров:</span> 5</p>
+                <p class="orders__quantity-text"><span>Позиций:</span> 11</p>
+              </div>
+              <div class="orders__lastprice" data-da=".orders__info-7, 730, last">
+                <p class="orders__quantity-title-mob">Итого:</p>
+                <p class="orders__lastprice-uan">¥ 10.00</p>
+                <p class="orders__lastprice-rub">₽ 105.2</p>
+              </div>
+            </div>
+          </div>          
+          <ul class="paginations">
+            <li class="pagination pagination-prev pagination-btn">
+              <a class="pagination-link" href="#"></a>
+            </li>
+            <li class="pagination ">
+              <a class="pagination-link pagination-link-active" href="#">1</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">2</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">3</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">4</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">5</a>
+            </li>
+            <li class="pagination">
+              ...
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">320</a>
+            </li>
+
+            <li class="pagination pagination-next pagination-btn">
+              <a class="pagination-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>     
+   
+    <footer class="footer">
+      <div class="container"> 
+        <div class="footer__block">
+          <div class="burger footer__burger">
+            <span class="burger-line__top"></span>
+            <span class="burger-line__center"></span>
+            <span class="burger-line__bottom"></span>
+          </div>
+          <div class="footer__inner">
+            <nav class="footer__navone footer__nav">
+              <ul class="footer__listone footer__list">
+                <li class="footer__itemone footer__item">                              
+                  <a class="footer__linkone footer__link" href="#">Товары</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">О нас</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Чат</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Форум</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Условия</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__navtwo footer__nav">
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+  
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+            </nav>
+            <nav class="footer__navthree footer__nav">
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__inner footer__inner-info">
+            <p class="footer__curse-text">Курс на сегодня</p>
+            <div class="footer__curse">
+              <span class="footer__uan">1 ¥</span>  =  <span class="footer__rus">  10.586 ₽</span>
+            </div>
+            <div class="footer__line">
+              <div class="footer__box footer__box-one">
+                <p class="footer__timecity"><img src="image/icons/clock1.png" alt=""> 11:00 Москва</p>              
+                <p class="footer__timecity" data-da=".footer__box-two, 460, last"><img src="image/icons/clock2.png" alt="">6:00 Пекин</p>
+              </div>
+              <div class="footer__box footer__box-two">
+                <p class="footer__time " data-da=".footer__box-one, 460, 0">Рабочий день с 4:00 до 13:00</p>
+                <p class="footer__time">Рабочий день с 9:00 до 18:00</p>
+              </div>
+            </div>
+            
+            <a href="tel:88007077568" class="footer__phone">8 (800) 707-75-68</a>
+            <p class="footer__call">Звонок по России бесплатный</p>
+            <div class="footer__socials">
+              <a class="footer__social" href="#">
+                <img  src="image/icons/facebook.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/twiter.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/google.png" alt="">
+              </a>    
+            </div>
+          </div>          
+        </div>
+        <p class="footer__ps">master-tao 2016 © Все права защищены</p>        
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="js/dynamicAdapt_old.js"></script>
+  <script src="select.js"></script>
+  <script src="js/global-script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>

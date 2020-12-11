@@ -1,0 +1,19 @@
+@import 'global.scss';
+@import 'home.scss';
+@import 'products.scss';
+@import 'orders.scss';
+@import 'stap1.scss';
+@import 'stap2.scss';
+@import 'addproducts.scss';
+
+.orange {
+  color: $orange;
+}
+
+.green {
+  color: $green;
+}
+
+.stap-active {
+  display: block;
+}

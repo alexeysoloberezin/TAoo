@@ -1,0 +1,88 @@
+.select {
+	position: relative;
+	min-height: 40px;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.select__item {
+	position: relative;
+}
+
+.select__title {
+	color: #fff;
+	background-color: #55596a;
+	cursor: pointer;
+
+
+}
+
+.select__value {
+	display: flex;
+	font-size: 17px;
+	height: 40px;
+	width: 275px;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.select__value span {
+	height: 1em;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	font-size: 17px;
+	padding-left: 10px;
+	/* font-family: sans-serif;	 */
+	font-family: 'Proxima Nova', sans-serif;
+	font-weight: 300;
+
+}
+
+.select__value::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	border: 5px solid transparent;
+	border-top: 5px solid #fff;
+	right: 10px;
+	top: 50%;
+	margin-top: -2px;
+	width: 10px;
+	height: 10px;
+}
+
+.select__options {
+	color: #fff;
+	background: #55596a;
+	display: none;
+	z-index: 2;
+	position: absolute;
+	top: 39px;
+	min-width: 100%;
+	left: 0;
+	border-top: 0;
+	border-top: 0;
+	font-size: 17px;
+	padding: 0px 0px 5px 0px;
+}
+
+.select__option {
+	cursor: pointer;
+	padding: 10px 10px;
+	margin: 0px 0px 0px 0px;
+
+}
+
+.select._active {
+	z-index: 5;
+}
+
+.select._active .select__value::before {
+	transform: rotate(-180deg);
+}
+
+.select._active.select__options {
+	display: block;
+}

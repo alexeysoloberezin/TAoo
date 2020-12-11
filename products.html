@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterTAO</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="select.css">
+</head>
+<body>
+  
+  <div class="wrapper" id="wrapper">
+    <header class="header">         
+      <div class="body__window"></div>  
+      <div class="header__row">
+        <div class="container">
+          <div class="header__inline">
+            <a href="/" class="header__logo">
+              <img src="image/Logo.png" alt="MasterTao">          
+            </a>
+            <div class="header__info">
+              <p>Доставка товаров из Китая в Россию</p>
+              <p>Всего от 15 дней до Москвы</p>
+            </div>
+            <div class="header__course">
+              <p><span class="header__uan"> 1 ¥ </span>= <span class="header__rus">10.586 ₽</span></p>
+              <p class="header__txt">Текущий курс:</p>
+            </div>
+            <div class="header__phone" data-da=".header__list, 767, last">
+              <a class="header__tel"  href="tel:88007077568">8 (800) 707-75-68</a>
+              <p class="header__txt">Звонок по России бесплатный</p>
+            </div>
+            <div class="header__login-inner header__login-reg">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <a class="header__login" href="#">Вход</a>
+              <span class="header__sl" style="white-space: pre;"> / </span>
+              <a class="header__register" href="#">регистрация</a>
+            </div>
+            <div class="header__login-inner header__user-inner">
+              <div class="header__user">
+                <img src="image/icons/User.png" alt="">
+              </div>
+              <p class="header__name">Иван Скороходов</p>
+              <ul class="header__account"> 
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Заказы</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Корзина</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Баланс</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Кабинет</a>
+                </li>
+                <li class="header__account-item">
+                  <a class="header__account-link" href="#">Выйти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="burger">
+              <span class="burger-line__top"></span>
+              <span class="burger-line__center"></span>
+              <span class="burger-line__bottom"></span>
+            </div>
+          </div>          
+        </div>       
+      </div>
+      <nav class="header__nav">
+        <div class="container">
+          <div class="header__burger-close">
+            <span></span>
+          </div>
+          <ul class="header__list">
+            <li class="header__item header__item-drp">
+              <p class="header__link header__link-drp">Товары</p>
+              <ul class="header__list-drop">
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Купальники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">Паяльники</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">украшения на шею</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">автотовары</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">головные уборы</a>
+                </li>
+                <li class="header__item-drop">
+                  <a class="header__link-drop" href="#">летняя распродажа</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">о нас</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">чат</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">форума</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">условия</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">отзывы</a>
+            </li>
+          </ul>
+        </div>       
+      </nav>
+     
+    </header>
+    <main class="main">
+      <div class="container">
+        <ul class="breads">
+          <li class="breads__item">
+            <a class="breads__link breads__link-home" href="/">Главная</a>
+          </li>
+          <li class="breads__item">
+            <a class="breads__link  " href="#">Товары</a>
+          </li>
+        </ul>
+      </div>
+      <section class="products">
+        <div class="container">
+          <div class="products__wrapper">
+            <h2 class="global__title products__title">товары</h2>
+            <p class="products__recomend-text">Сортировка:</p>
+            <select class="products__recomend-mob">
+              <option value="рекомендации">рекомендации</option>
+              <option value="объявления о продаже">объявления о продаже</option>
+              <option value="товары из кнр">товары из кнр</option>
+            </select>
+            <nav class="products__nav"> 
+              <ul class="products__list">
+                <li class="products__item">
+                  <a class="products__link products__link-active" href="#">рекомендации</a>
+                </li>
+                <li class="products__item">
+                  <a class="products__link" href="#">объявления о продаже</a>
+                </li>
+                <li class="products__item">
+                  <a class="products__link" href="#">товары из кнр</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="products__inner">
+            <div class="products__category">
+              <div class="products__line">
+                <p class="products__subtitle">Категории</p>
+                <p class="products__openclose">Развернуть</p>
+              </div>
+              <ul class="products__category-list">
+                <!-- Одежда для женщин -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Одежда для женщин</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Одежда для женщин</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Одежда для женщин</a>
+                    </li>                    
+                  </ul>
+                </li>
+                <!-- Одежда для женщин -->
+                <!-- Одежда для мужчин -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Одежда для мужчин</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Одежда для мужчин</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Одежда для мужчин</a>
+                    </li>                    
+                  </ul>
+                </li>
+                <!-- Одежда для мужчин -->
+                <!-- Всё для детей -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Всё для детей</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Всё для детей</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Всё для детей</a>
+                    </li>  
+                    <li class="products__drop-item">
+                      <a href="#">Всё для детей</a>
+                    </li>                        
+                  </ul>
+                </li>
+                <!-- Всё для детей -->
+                <!-- Телефоны и аксессуары -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Телефоны и аксессуары</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Мобильные телефоны</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Сумки и чехлы</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Запчасти</a>
+                    </li>  
+                    <li class="products__drop-item">
+                      <a href="#">Аксессуары для телефонов</a>
+                    </li>                  
+                  </ul>
+                </li>
+                <!-- Телефоны и аксессуары -->
+                <!-- Компьютерная техника -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Компьютерная техника</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Компьютерная техника</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Компьютерная техника</a>
+                    </li>  
+                  </ul>
+                </li>
+                <!-- Компьютерная техника -->
+                <!-- Автотовары -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Автотовары</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Автотовары</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Автотовары</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Автотовары</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Автотовары -->
+                <!-- Бижутерия и часы -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Бижутерия и часы</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Бижутерия и часы</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Бижутерия и часы</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Бижутерия и часы</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Бижутерия и часы -->
+                <!-- Сумки и обувь -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Сумки и обувь</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Сумки и обувь</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Сумки и обувь</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Сумки и обувь</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Сумки и обувь -->
+                <!-- Для дома и сада -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Для дома и сада</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Для дома и сада</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Для дома и сада</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Для дома и сада</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Для дома и сада -->
+                <!-- Электроника -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Электроника</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Электроника</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Электроника</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Электроника</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Электроника -->
+                <!-- Красота и здоровье -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Красота и здоровье</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Красота и здоровье</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Красота и здоровье</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Красота и здоровье</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Красота и здоровье -->
+                <!-- Спорт и развлечения -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Спорт и развлечения</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Спорт и развлечения</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Спорт и развлечения</a>
+                    </li>    
+                    <li class="products__drop-item">
+                      <a href="#">Спорт и развлечения</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Спорт и развлечения -->
+                <!-- Техника и инструменты -->
+                <li class="products__category-item">
+                  <p class="products__drop-text">Техника и инструменты</p>
+                  <ul class="products__drop-list">
+                    <li class="products__drop-item">
+                      <a href="#">Техника и инструменты</a>
+                    </li>
+                    <li class="products__drop-item">
+                      <a href="#">Техника и инструменты</a>
+                    </li>  
+                  </ul>
+                </li>
+                <!-- Техника и инструменты -->
+              </ul>
+            </div>
+            <div class="products__inner-mob">
+              <div class="products__filter-price">
+                <p class="products__txt">Цена</p>
+                <input class="products__price-inp products__price-inp-1" type="text" placeholder="от">
+                <input class="products__price-inp" type="text" placeholder="до">
+              </div>
+              <div class="products__filter-sort">
+                <p class="products__txt">Сортировка:</p>
+                <select class="products__select" name="select">
+                  <option value="количеству покупок">количеству покупок</option>
+                  <option value="популярности">популярности</option>
+                  <option value="цене">цене</option>
+                </select>
+              </div>
+            </div>            
+          </div>
+          <div class="products__goods-wrapper">
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/1.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/2.jpg" alt="">
+              <p class="products__goods-price">250 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>3</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>10</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/3.jpg" alt="">
+              <p class="products__goods-price">3 200 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>50</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>35</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/4.jpg" alt="">
+              <p class="products__goods-price">1250 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>7</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>11</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/4.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/5.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/6.jpg" alt="">
+              <p class="products__goods-price">250 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>3</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>10</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/7.jpg" alt="">
+              <p class="products__goods-price">3 200 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>50</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>35</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/8.jpg" alt="">
+              <p class="products__goods-price">1250 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>7</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>11</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/9.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/10.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/11.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/12.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/13.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/14.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="products__goods-inner">
+              <img class="products__goods-bg" src="image/products/15.jpg" alt="">
+              <p class="products__goods-price">934 ₽</p>
+              <div class="products__goods-box">
+                <a href="#" class="products__goods-comment">
+                  <p>6</p>
+                  <img src="image/icons/comment.png" alt="">
+                </a>
+                <a href="#" class="products__goods-like">
+                  <p>32</p>
+                  <img src="image/icons/likeprodict.png" alt="">
+                </a>
+              </div>
+            </div>            
+          </div>
+          <ul class="paginations">
+            <li class="pagination pagination-prev pagination-btn">
+              <a class="pagination-link" href="#"></a>
+            </li>
+            <li class="pagination ">
+              <a class="pagination-link pagination-link-active" href="#">1</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">2</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">3</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">4</a>
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">5</a>
+            </li>
+            <li class="pagination">
+              ...
+            </li>
+            <li class="pagination">
+              <a class="pagination-link" href="#">320</a>
+            </li>
+
+            <li class="pagination pagination-next pagination-btn">
+              <a class="pagination-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>     
+   
+    <footer class="footer">
+      <div class="container"> 
+        <div class="footer__block">
+          <div class="burger footer__burger">
+            <span class="burger-line__top"></span>
+            <span class="burger-line__center"></span>
+            <span class="burger-line__bottom"></span>
+          </div>
+          <div class="footer__inner">
+            <nav class="footer__navone footer__nav">
+              <ul class="footer__listone footer__list">
+                <li class="footer__itemone footer__item">                              
+                  <a class="footer__linkone footer__link" href="#">Товары</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">О нас</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Чат</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Форум</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Условия</a>
+                </li>
+                <li class="footer__itemone footer__item">
+                  <a class="footer__linkone footer__link" href="#">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer__navtwo footer__nav">
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+  
+              <ul class="footer__listtwo footer__list">
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Купальники</a>
+                </li>     
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">Паяльники</a>
+                </li>    
+                <li class="footer__itemtwo footer__item">                              
+                  <a class="footer__linktwo footer__link" href="#">украшения на шею</a>
+                </li>             
+              </ul>
+            </nav>
+            <nav class="footer__navthree footer__nav">
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+              <ul class="footer__listthree footer__list">
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">автотовары</a>
+                </li>     
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">головные уборы</a>
+                </li>    
+                <li class="footer__itemthree footer__item">                              
+                  <a class="footer__linkthree footer__link" href="#">летняя распродажа</a>
+                </li>             
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__inner footer__inner-info">
+            <p class="footer__curse-text">Курс на сегодня</p>
+            <div class="footer__curse">
+              <span class="footer__uan">1 ¥</span>  =  <span class="footer__rus">  10.586 ₽</span>
+            </div>
+            <div class="footer__line">
+              <div class="footer__box footer__box-one">
+                <p class="footer__timecity"><img src="image/icons/clock1.png" alt=""> 11:00 Москва</p>              
+                <p class="footer__timecity" data-da=".footer__box-two, 460, last"><img src="image/icons/clock2.png" alt="">6:00 Пекин</p>
+              </div>
+              <div class="footer__box footer__box-two">
+                <p class="footer__time " data-da=".footer__box-one, 460, 0">Рабочий день с 4:00 до 13:00</p>
+                <p class="footer__time">Рабочий день с 9:00 до 18:00</p>
+              </div>
+            </div>
+            
+            <a href="tel:88007077568" class="footer__phone">8 (800) 707-75-68</a>
+            <p class="footer__call">Звонок по России бесплатный</p>
+            <div class="footer__socials">
+              <a class="footer__social" href="#">
+                <img  src="image/icons/facebook.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/twiter.png" alt="">
+              </a>
+              <a class="footer__social" href="#">
+                <img  src="image/icons/google.png" alt="">
+              </a>    
+            </div>
+          </div>          
+        </div>
+        <p class="footer__ps">master-tao 2016 © Все права защищены</p>        
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="js/dynamicAdapt_old.js"></script>
+  <script src="select.js"></script>
+  <script src="js/global-script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
