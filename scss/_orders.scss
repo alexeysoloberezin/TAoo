@@ -144,7 +144,21 @@
     color: #ff8e29;
     font-size: 18px;
     font-weight: 400;
+    width: fit-content;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
+
+  @media (max-width:730px) {
+    &__date {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
 
   &__status {}
 

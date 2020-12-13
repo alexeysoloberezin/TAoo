@@ -3184,6 +3184,17 @@ body {
   color: #ff8e29;
   font-size: 18px;
   font-weight: 400;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.orders__date:hover {
+  text-decoration: underline;
+}
+@media (max-width: 730px) {
+  .orders__date:hover {
+    text-decoration: none;
+  }
 }
 .orders__tracking span {
   color: #8acd52;
