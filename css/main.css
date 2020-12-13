@@ -250,6 +250,7 @@ body {
   padding: 15px 45px 12px 27px;
   display: none;
   z-index: 4;
+  box-shadow: 0px 5px 10px rgba(18, 20, 27, 0.8);
 }
 .header__item-drp:hover .header__list-drop {
   display: flex;
